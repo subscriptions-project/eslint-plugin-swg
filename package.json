@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-swg",
+  "version": "0.1.0",
+  "description": "ESLint rules for the SwG project",
+  "private": true
+  "main": "index.js",
+  "engines": {
+    "node": ">=10",
+    "yarn": ">=1"
+  },
+  "author": "Subscribe with Google Authors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subscriptions-project/eslint-plugin-swg.git"
+  },
