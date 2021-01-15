@@ -13,7 +13,10 @@ Manually adding to `package.json`:
 ```shell
 ...
 "dependencies": {
-    "eslint-plugin-swg": "github:everyplace/eslint-plugin-swg#main"
+    "eslint-plugin-swg-internal": "github:everyplace/eslint-plugin-swg#main"
 }
 ...
 ```
+
+Note: In place of `#main`, you can also use a specific commit hash to lock the
+version.
