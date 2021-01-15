@@ -23,7 +23,14 @@ const ruleFiles = fs
   .readdirSync(__dirname)
   .filter(
     (ruleFile) =>
-      !['index.js', 'node_modules', 'package.json'].includes(ruleFile)
+      ![
+        'CONTRIBUTING',
+        'index.js',
+        'LICENSE',
+        'node_modules',
+        'package.json',
+        'README.md'
+      ].includes(ruleFile)
   );
 ruleFiles.forEach(function (ruleFile) {
   const rule = ruleFile.replace(path.extname(ruleFile), '');
